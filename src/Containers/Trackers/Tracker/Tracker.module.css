@@ -1,0 +1,64 @@
+/* .Tracker {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+    text-align: left;
+} */
+
+/*  SECTIONS  */
+/* .Section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+} */
+
+/*  COLUMN SETUP  */
+/* .Col {
+	display: block;
+	float:left;
+    margin: 1% 0 1% 2.6%;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px #eee;
+    text-align: left;
+    padding: 1% 0 1% 1.6%;;
+} */
+/* .Col:first-child { margin-left: 0; } */
+
+/*  GROUPING  */
+/* .Group:before,
+.Group:after { content:""; display:table; }
+.Group:after { clear:both;}
+.Group { zoom:1; /* For IE 6/7 */ 
+
+/*  GRID OF SIX  */
+/* .Span_6_of_6 {
+	width: 100%;
+}
+
+.Span_5_of_6 {
+  	width: 83.06%;
+}
+
+.Span_4_of_6 {
+      /* width: 66.13%; */
+      /* max-width: 66.13%;
+}
+
+.Span_3_of_6 {
+  	width: 49.2%;
+}
+
+.Span_2_of_6 {
+  	width: 32.26%;
+}
+
+.Span_1_of_6 {
+  	width: 15.33%;
+} */
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+/* @media only screen and (max-width: 480px) {
+	.Col {  margin: 1% 0 1% 0%; }
+	.Span_1_of_6, .Span_2_of_6, .Span_3_of_6, .Span_4_of_6, .Span_5_of_6, .Span_6_of_6 { width: 100%; }
+} */ 

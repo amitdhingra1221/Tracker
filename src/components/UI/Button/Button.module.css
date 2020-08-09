@@ -1,0 +1,168 @@
+.Button {
+    text-align: justify;
+    background-color: transparent;
+    border: 1px solid rgb(14, 196, 54);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* .Button:first-of-type {
+    margin-left: 0;
+    /* padding-left: 0; 
+} */
+
+
+.Button:active,
+.Button:hover{
+    /* background-color: #ccc; */
+    color: rgb(43, 42, 42);
+    /* border-bottom: 1px solid #bbb; */
+    cursor: pointer;
+} 
+
+.Button:disabled {
+    /* background-color: #C7C6C6; */
+    cursor: not-allowed;
+    color: #888888;
+}
+
+.Continue {
+    /* background-color: rgb(33, 163, 0); */
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 62, 177);
+    color: rgb(0, 62, 177);
+}
+
+.Continue:active,
+.Continue:hover{
+    border: 1px solid rgb(0, 42, 119);
+    color:rgb(0, 42, 119);
+    cursor: pointer;
+} 
+.Success {
+    /* background-color: rgb(33, 163, 0); */
+    background-color: #fff;
+    float: right;
+    text-align: center;
+    color: rgb(33, 163, 0);
+    margin-top: -5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 90px;
+    box-shadow: 0 1px 1px #ccc;
+    border-radius: 5px;
+}
+
+.Success:active,
+.Success:hover{
+    color: rgb(26, 131, 0);
+    border: 1px solid rgb(26, 131, 0);
+    cursor: pointer;
+} 
+
+.Success:disabled {
+    /* background-color: #C7C6C6; */
+    cursor: not-allowed;
+    color: #888888;
+    border: 1px solid #888888;
+}
+.Danger {
+    border: none;
+    background-color: rgb(243, 243, 243);
+    color: rgb(43, 42, 42);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-size: 1.3rem; 
+}
+.Logout {
+    float: right;
+    text-align: center;
+    /* color: rgb(33, 163, 0); */
+    background-color:#fff;
+    /* letter-spacing: 0.5px; */
+    color: #0057a5;
+    border: 1px solid #0057a5; 
+    margin: 20px;
+    padding: 5px;
+    width: 90px;
+    box-shadow: 0 1px 1px #ccc;
+    border-radius: 5px;
+}
+
+.Logout:active,
+.Logout:hover{
+    color: #003869;
+    cursor: pointer;
+} 
+
+.Switch {
+    border: none;
+    /* background-color: rgb(243, 243, 243); */
+    color: rgb(43, 42, 42);
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+    width: auto;
+    font-size: 0.9rem; 
+}
+
+.Switch:disabled {
+    /* background-color: #C7C6C6; */
+    cursor: not-allowed;
+    color: #888888;
+    /* border: 1px solid #888888; */
+}
+.Login {
+    display: inline-block;
+    text-align: center;
+    width: 27%;
+    margin: 8px;
+    background-color:#0057a5;
+    letter-spacing: 0.5px;
+    color: white;
+    border: 1px solid #0057a5; 
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 250ms, border 250ms, color 250ms;
+  }
+
+  .Login:hover, 
+  .Login:active{
+    cursor: pointer;
+    background-color: #003c72;
+    color: white;
+  }
+
+  .Login:disabled {
+    border: none;
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    color: #888888;
+}
+
+@media (max-width: 600px) {
+    .Login {
+        width: 80px;
+        font-size: 1rem;
+        padding: 4px;
+    }
+}
+
+@media (max-width: 450px) {
+    .Login {
+        width: 60px;
+        font-size: 0.8rem;
+        padding: 2px;
+    };
+};

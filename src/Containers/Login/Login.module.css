@@ -1,0 +1,81 @@
+.Form {
+  background-color: #fff;
+    position: relative;
+    width: 350px;
+    padding: 40px 50px;
+    margin: 110px auto;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px #ccc;
+}
+   
+.Form h3 {
+  margin: -50px -52px 20px -52px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  background-color:#003c72;
+  /* background-color:#003c72; */
+  padding: 15px 0 15px 0;
+  border-bottom: 2px solid #ccc;
+  box-shadow: 0px -1px 2px #003c72;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.Form label {
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin-top: 25px;
+    padding-right: 5px;
+    font-weight: bold;
+  }
+  
+  .Form input {
+    margin-left: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    height: 25px;
+    border: 1px solid #777; 
+    box-shadow: 0px 1px 2px #ccc;
+  }
+
+  .SignIn, 
+  .SignIn:visited{
+    width: 100px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 7px 15px;
+    background-color:#0057a5;
+    letter-spacing: 0.5px;
+    color: white;
+    border: 1px solid #0057a5; 
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 250ms, border 250ms, color 250ms;
+  }
+
+  .SignIn:hover, 
+  .SignIn:active{
+    cursor: pointer;
+    background-color: #003c72;
+  }
+
+   .ForgotPw {
+    background-color: transparent;
+    border: none;
+    color:#0057a5;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding-left: 15px;
+    font-weight: 500;
+} 
+
+.ForgotPw:hover, 
+.ForgotPw:active{
+    cursor: pointer;
+    color: #003c72;
+  }
